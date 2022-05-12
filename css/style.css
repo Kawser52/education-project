@@ -34,3 +34,61 @@ body{
 }
 
 /* End Navigation Section  */
+.hero{
+    background-image: url("/img/hero-banner.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content{
+   margin-top: 70px;
+}
+
+.hero-content h1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #ffc178;
+    font-size: 40px;
+}
+
+.hero-content p{
+    color: #5a6e79;
+    font-family: 'works sans';
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.custom-btn-design{
+    background-color: #ffc178;
+    padding: 13px 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'works sans';
+}
+.custom-btn-design:hover{
+    background-color: #ffc150;;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 400px) {
+    .hero{
+        background-image: url("/img/hero-banner.png");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
